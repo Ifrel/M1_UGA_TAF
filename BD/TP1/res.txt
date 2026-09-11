@@ -1,0 +1,6 @@
+Exercice 1 : Annulation de transaction 
+    1.  Insérez deux nouveaux comptes ayant pour propriétaire Paul (le numéro de compte et le 
+    solde sont à votre choix). 
+    2.  Affichez le contenu de la relation COMPTES. 
+    3.  Faites un rollback 
+    4.  Affichez le contenu de la relation COMPTES. 
