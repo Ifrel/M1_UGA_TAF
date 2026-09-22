@@ -1,0 +1,148 @@
+.\"Modified from man(1) of FreeBSD, the NetBSD mdoc.template, and mdoc.samples.
+.\"See Also:
+.\"man mdoc.samples for a complete listing of options
+.\"man mdoc for the short list of editing options
+.\"/usr/share/misc/mdoc.template
+.Dd Mon Apr 14 2003               \" DATE 
+.Dt socklab 1      \" Program name and manual section number 
+.Os BSD
+.Sh NAME                 \" Section Header - required - don't modify 
+.Nm socklab
+.\" The following lines are read in generating the apropos(man -k) database. Use only key
+.\" words here as the database is built based on the words here and in the .ND line. 
+.\" Use .Nm macro to designate other names for the documented program.
+.Nd interactive shell for socket manipulation.
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm
+.Op Ar tcp | Ar udp
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+.Nm
+is a command interpreter that allows
+BSD socket manipulation
+without having to write any line of C code.
+.Pp                      \" Inserts a space
+.Sh OPTIONS
+.Bl -tag -width -indent  \" Begins a tagged list 
+.It Ar tcp             \" Each item preceded by .It macro
+use only SOCK_STREAM sockets
+.It Ar udp
+use only SOCK_DGRAM sockets
+.El                      \" Ends the list
+.Pp
+.Sh COMMANDS
+.Ss Special commands
+.Bl -tag -indent \" -width "123456789012"
+.It Ic Q | Ic X | Ic quit | Ic exit
+Exit
+.Nm
+.It Ic \&? | Ic help Op Ar cmd
+Get help for
+.Ar cmd
+or list available commands.
+.It Ic \&= | Ic status
+Show status for all active sockets.
+The currently selected socket is identified with
+.Va \&>
+at the beginning of the line.
+For every socket, the following information is given:
+.Va identifier ,
+.Va protocol type
+(UDP or TCP),
+.Va local address ,
+.Va remote address ,
+.Va RWX
+status.
+.El
+.Ss Standard commands
+.Bl -tag -indent
+.It Ic s | Ic socket Op Ar tcp | Ar udp
+Create a new socket of stream or datagram type
+.It Ic b | Ic bind Op Ar id Op Ar host Op Ar port
+Bind socket
+.Ar id
+to a given address.
+.Dv INADDR_ANY
+is specified using \&*
+.El
+.Ss UDP mode commands 
+.Bl -tag -indent
+.It Ic s | Ic socket
+Create a new socket
+.It Ic n | Ic socket6
+Create a new IPv6 socket
+.It Ic c | Ic msocket
+Create a new multicast socket
+.It Ic k | Ic close Op Ar id
+.It Ic o | Ic options Op Ar id Op Ar name
+.It Ic j | Ic mjoin
+.It Ic l | Ic mleave
+.It Ic b | Ic mbind
+.It Ic f | Ic recvfrom
+.It Ic r | Ic mrecvfrom
+.It Ic t | Ic sendto
+.It Ic m | Ic msendto
+.It Ic a | Ic bsend
+.El
+.Ss TCP mode commands
+.Bl -tag -indent
+.It Ic p | Ic passive
+Create a new passive socket
+.It Ic n | Ic passive6
+Create a new passive IPv6 socket
+.It Ic a | Ic accept Op Ar id
+Accept a new connection on a passive socket
+.It Ic c | Ic connect Op Ar host Op Ar port
+Connect to a given host and port
+.It Ic e | Ic connect6 Op Ar host Op Ar port
+Connect using IPv6 to a given host and port
+.It Ic k | Ic close Op Ar id
+.It Ic h | Ic shutdown Op Ar id Op Ar in | out | both
+.It Ic o | Ic options Op Ar id Op Ar name
+.It Ic r | Ic read
+.It Ic w | Ic write
+.It Ic v | Ic urecv
+Receive an urgent message (OOB)
+.It Ic d | Ic usend
+Send an urgent message (OOB)
+.Sh WRITING MESSAGES
+When writing messages (with any of
+.Ic write
+|
+.Ic sendto
+|
+.Ic msendto
+|
+.Ic bsend
+|
+.Ic usend
+), two syntaxes can be used:
+.Bl -tag -indent
+.It Ar literal message
+Send the given message.  Double spaces are replaced with "\\r\\n", and a trailing space is replaced with "\\n".
+This allows to easily send HTTP requests, for instance: "
+.Ar "GET / HTTP/1.1  Host: localhost   "
+".
+.It Ic # Ar nb_bytes
+Send a message with the given number of bytes.
+.\" .Sh ENVIRONMENT      \" May not be needed
+.\" .Bl -tag -width "ENV_VAR_1" -indent \" ENV_VAR_1 is width of the string ENV_VAR_1
+.\" .It Ev ENV_VAR_1
+.\" Description of ENV_VAR_1
+.\" .It Ev ENV_VAR_2
+.\" Description of ENV_VAR_2
+.\" .El                      
+.\" .Sh FILES             \" File used or created by the topic of the man page
+.\" .Sh DIAGNOSTICS       \" May not be needed
+.\" .Bl -diag
+.\" .It Diagnostic Tag
+.\" Diagnostic informtion here.
+.\" .It Diagnostic Tag
+.\" Diagnostic informtion here.
+.\" .El
+.\" .Sh SEE ALSO 
+.\" .Sh BUGS              \" Document known, unremedied bugs 
+.El
+.Sh HISTORY           \" Document history if command behaves in a unique manner
+This is an educational tool, coded for teaching computer networks at IMAG, Grenoble, France.
+.Sh AUTHORS
+L. Croq, L. Sali, P. Sicard, M. Heusse, F. Rousseau

@@ -1,0 +1,40 @@
+20 March 2021: socklab-1.1.2
+
+  * Fix build on OS X
+
+15 December 2020: socklab-1.1.1
+
+  * Fix build on ubuntu 16.04
+  * Fix a possible buffer overflow via long DNS name
+
+2 April 2019: socklab-1.1.0
+
+  * Convert double spaces to \r\n in messages to ease communication with HTTP servers.
+  * Multicast: don't specify source interface.
+
+19 May 2017: socklab-1.0.1
+
+  * Fix git version extraction in corner cases.
+  * Drop dependency on termcap, which is obsolete and does not seem to
+    actually be used by socklab.  This fixes build on Arch Linux.
+  * Allow to set build flags from env variables (useful for packagers).
+  * Expand README and translate to English.
+  * Add a changelog.
+
+18 May 2017: socklab-1.0.0
+
+  * First public release on github.
+  * Add IPv6 support.
+  * Add auto-completion for command names.
+  * Translate user interface from French to English.
+  * Version number is now automatically extracted from git.
+  * Fix build- and run-time support for Linux.
+  * Modernize build system: use standard variable names, use implicit
+    make rules, add install target.
+  * General modernisation improvements: ditch obsolete IPv6 constants,
+    use getnameinfo() and getaddrinfo().
+  * Several bug fixes.
+
+21 April 2011: socklab-0.9
+
+  * Import from svn repository (r386)

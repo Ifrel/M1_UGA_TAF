@@ -1,0 +1,21 @@
+version 0.90.3.2
+28 march 2007 - GBS
+               Various cosmetic and portability changes.  Minor bugfixes.
+version 0.90.3
+09 june 2006 - GBS
+	      functions common to udptarget.c and tcptarget.c are put in
+	      target.c
+	      udpmt insert a timestamp in packets
+              option -j to udptarget allows to display jitter
+version 0.90.2
+02 june 2006 - Yan Grunenberger
+	      option -i in udptarget and tcptarget to specify display interval.
+31 may 2006 - GBS
+	      option -p in udptarget to specify a port number
+	      option -d in tcpmt and udpmt to spécify the test duration.
+30 may 2006 - GBS
+	      option -o in udptarget and tcptarget allows to send the result
+	      to a file
+version 0.90.1
+29 may 2006 - GBS
+	      option "-v" displays version number for every executable. 

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4166db5-2fba-4a85-b695-197f5b97a6de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/.idea/TP1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/TP1 - Représentation de graphes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/.mvn/jvm.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/.mvn/maven.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Vertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/EdgeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/GraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/VertexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.EdgeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.GraphTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.VertexTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.EdgeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.GraphTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.VertexTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/tp1-graphs-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IASD/TP1/TP-12-IntroPythonSklearn-Part.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../IASD/TP1/TP-12-IntroPythonSklearn-Part.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="34" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.2186857556971148E-65" />
+      <entry key="MS500" value="1.0403632994728575E-13" />
+      <entry key="S2" value="6.137720652842671E-4" />
+      <entry key="S5" value="0.08189066001433884" />
+      <entry key="S10" value="0.5278955454641674" />
+      <entry key="S30" value="2.2867237669687897" />
+      <entry key="S60" value="4.002335213279027" />
+      <entry key="M2" value="5.958604057223294" />
+      <entry key="M5" value="8.526728625365445" />
+      <entry key="M10" value="11.326895159522124" />
+      <entry key="M15" value="13.528121936196799" />
+      <entry key="M30" value="19.38353511290564" />
+      <entry key="H1" value="35.40322491974321" />
+      <entry key="H2" value="63.12422557647934" />
+      <entry key="H4" value="90.78526366421863" />
+      <entry key="D1" value="126.82765349629145" />
+      <entry key="W1" value="134.6426522356808" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000199351574" />
+      <entry key="S10" value="1.000598649582312" />
+      <entry key="S30" value="1.1320518576495913" />
+      <entry key="S60" value="1.5166935445298253" />
+      <entry key="M2" value="2.08282405105437" />
+      <entry key="M5" value="3.10563886184148" />
+      <entry key="M10" value="4.252020581788585" />
+      <entry key="M15" value="5.009101524547393" />
+      <entry key="M30" value="6.376614837280126" />
+      <entry key="H1" value="8.759088849565877" />
+      <entry key="H2" value="12.626928803815979" />
+      <entry key="H4" value="16.524601498246845" />
+      <entry key="D1" value="21.67713227665462" />
+      <entry key="W1" value="22.80396831525527" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.474010273864285E-6" />
+      <entry key="MS500" value="0.0851411271650697" />
+      <entry key="S2" value="0.5406634422740244" />
+      <entry key="S5" value="0.8553864914391981" />
+      <entry key="S10" value="1.3746962538480132" />
+      <entry key="S30" value="3.2856360090457306" />
+      <entry key="S60" value="5.399669136207104" />
+      <entry key="M2" value="7.951569105984462" />
+      <entry key="M5" value="11.581190401801527" />
+      <entry key="M10" value="15.546672913787765" />
+      <entry key="M15" value="18.512752913075417" />
+      <entry key="M30" value="25.74425583247446" />
+      <entry key="H1" value="44.149166461923365" />
+      <entry key="H2" value="75.73990723352067" />
+      <entry key="H4" value="107.3018665525037" />
+      <entry key="D1" value="148.5029311158799" />
+      <entry key="W1" value="157.44633935644814" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3J5bc9T1sS6FF6lFLdZ5ZN5VMII" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1" />
+      <recent name="$PROJECT_DIR$/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TP1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TP1" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4166db5-2fba-4a85-b695-197f5b97a6de" name="Changes" comment="" />
+      <created>1788953956461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788953956461</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
