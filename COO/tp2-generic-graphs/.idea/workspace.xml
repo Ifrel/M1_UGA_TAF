@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4166db5-2fba-4a85-b695-197f5b97a6de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TP1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/.idea/TP1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/TP1 - Représentation de graphes.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/.mvn/jvm.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/.mvn/maven.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/main/java/fr/uga/im2ag/m1info/tp1/Vertex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/EdgeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/GraphTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/src/test/java/fr/uga/im2ag/m1info/tp1/VertexTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.EdgeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.GraphTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/TEST-fr.uga.im2ag.m1info.tp1.VertexTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.EdgeTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.GraphTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/surefire-reports/fr.uga.im2ag.m1info.tp1.VertexTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1/tp1-graphs/target/tp1-graphs-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IASD/TP1/TP-12-IntroPythonSklearn-Part.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../IASD/TP1/TP-12-IntroPythonSklearn-Part.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaNote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/uga/im2ag/m1info/tp2/GraphInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/uga/im2ag/m1info/tp2/GraphInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="34" />
+    <option name="cachedIndexableFilesCount" value="21" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -56,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ifrel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Ifrel/M1_UGA_TAF.git&quot;,
+    &quot;accountId&quot;: &quot;d447f61b-8635-4a53-a412-60eab38ec195&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -178,8 +163,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
